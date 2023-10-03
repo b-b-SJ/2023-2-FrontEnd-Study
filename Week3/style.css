@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'PyeongChangPeace-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/PyeongChangPeace-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Orbit-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2310@1.0/Orbit-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    background-color: #6283ae;
+    height : 100%;
+  }
+
+body {
+	box-sizing: border-box;
+				width: 500px;
+				height: 700px;
+				margin: 50px auto;
+				background-color: rgb(255, 255, 255);
+                border: 5px solid rgb(255, 255, 255);
+    border-radius: 20px; /*모서리 둥글게*/
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.todo-title { 
+    margin: 20px;
+	font-family: 'PyeongChangPeace-Bold';
+    font-size: 25pt;
+    text-align: center; /*중앙 정렬*/
+}
+
+.todo-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#todo-input {
+    width: 60%;
+    height: 40px;
+    font-family: 'Orbit-Regular';
+    font-size: 16px;
+    border-radius: 15px;
+    background-color: rgba(173, 204, 255, 0.5);
+    text-align: center; /*중앙 정렬*/
+  }
+  
+
+button {
+    border: 0;
+    background: none;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+.todo-list {
+    font-family: 'Orbit-Regular';
+    box-sizing: border-box;
+				width: 400px;
+				height: 200px;
+				margin: 1px auto;
+				background-color: rgb(228, 228, 228);
+    border-radius: 40px; /*모서리 둥글게*/
+    text-align: center; /*중앙 정렬*/
+}
+
+.done-list {
+    font-family: 'Orbit-Regular';
+    box-sizing: border-box;
+				width: 400px;
+				height: 200px;
+				margin: 1px auto;
+				background-color: rgb(228, 228, 228);
+    border-radius: 40px; /*모서리 둥글게*/
+    text-align: center; /*중앙 정렬*/
+}
+
