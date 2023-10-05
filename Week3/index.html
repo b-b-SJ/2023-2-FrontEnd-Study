@@ -2,9 +2,10 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>My Little Todo-List</title>
+		<div class = "todo-title">
+			<title>My Little Todo-List</title>
+		</div>
 		<link rel = "stylesheet" href = "style.css"/>
 	</head>
 	<body>
@@ -12,18 +13,23 @@
 			<div class = "todo-title">
 				My Little Todo-List
 			</div>
-				<form class = "todo-form">
+				<form id = "todo-form">
                      <input id="todo-input" type = "text" placeholder="Anything to-do?">
-                     <button id="submitbutton"> + </button>
+                     <button id="input-button" onclick="addTodoList()"> + </button>
                  </form>
+				 <div class = "todolist-title">
+					Todo
+				</div>
 				 <section class="todo-section">
-					<h2> Todo </h2>
-					<ul class ="todo-list"></ul>
+					<ul id ="todo-list"></ul>
 				  </section>
+				  <div class = "donelist-title">
+					Done
+				</div>
 				  <section class="done-section">
-					<h2> Done </h2>
-					<ul class ="done-list"></ul>
+					<ul id ="done-list"></ul>
 				  </section>
-				<script src = "script.js"></script>
+		</div>
 	</body>
+	<script src = "script.js"></script>
 </html>
