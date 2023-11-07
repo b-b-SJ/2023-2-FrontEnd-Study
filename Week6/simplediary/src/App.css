@@ -1,0 +1,92 @@
+@font-face {
+  font-family: "Orbit-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2310@1.0/Orbit-Regular.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* App */
+.App {
+}
+
+/* editor */
+
+.DiaryEditor {
+  border: 1px solid gray;
+  text-align: center;
+  padding: 20px;
+  font-family: "Orbit-Regular";
+}
+
+.DiaryEditor input,
+textarea {
+  font-family: "Orbit-Regular";
+  margin-bottom: 20px;
+  width: 500px;
+}
+
+.DiaryEditor input {
+  padding: 10px;
+}
+.DiaryEditor textarea {
+  padding: 10px;
+  height: 150px;
+}
+
+.DiaryEditor select {
+  width: 100px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.DiaryEditor button {
+  font-family: "Orbit-Regular";
+  width: 500px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+/* List  */
+
+.DiaryList {
+  font-family: "Orbit-Regular";
+  border: 1px solid gray;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.DiaryList h2 {
+  text-align: center;
+}
+
+/* ITEM */
+
+.DiaryItem {
+  background-color: rgb(240, 240, 240);
+  margin-bottom: 10px;
+  padding: 20px;
+}
+
+.DiaryItem span {
+  margin-right: 10px;
+}
+
+.DiaryItem .info {
+  border-bottom: 1px solid gray;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+.DiaryItem .date {
+  color: gray;
+}
+
+.DiaryItem .content {
+  margin-bottom: 30px;
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+.DiaryItem textarea {
+  padding: 10px;
+}
