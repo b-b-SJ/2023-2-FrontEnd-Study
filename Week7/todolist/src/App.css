@@ -1,0 +1,98 @@
+@font-face {
+  font-family: "PyeongChangPeace-Bold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/PyeongChangPeace-Bold.woff2")
+    format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PyeongChang-Bold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/PyeongChang-Bold.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* App */
+.App {
+  background-color: #6693ce;
+  box-sizing: border-box;
+  width: 700px;
+  height: 900px;
+  margin: 20px auto;
+  border-radius: 20px; /*모서리 둥글게*/
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.TodoEditor {
+  background-color: rgb(186, 207, 229);
+  width: 500px;
+  text-align: center;
+  margin-top: 50px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.Todotitle {
+  margin-bottom: 10px;
+  font-family: "PyeongChangPeace-Bold";
+  font-size: 25pt;
+  text-shadow: 3px 3px white;
+}
+
+.TodoEditor input {
+  width: 300px;
+  padding: 8px;
+  font-family: "PyeongChang-Bold";
+}
+
+.TodoEditor button {
+  width: 30px;
+  padding: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+  font-family: "PyeongChang-Bold";
+}
+
+.List {
+  font-family: "PyeongChang-Bold";
+}
+
+.Todolist {
+  text-align: center;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  height: 300px;
+  width: 500px;
+  font-size: 15pt;
+  background-color: rgb(225, 227, 232);
+}
+
+.Donelist {
+  text-align: center;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  height: 300px;
+  width: 500px;
+  font-size: 15pt;
+  background-color: rgb(225, 227, 232);
+}
+
+.content {
+  background-color: white;
+  font-size: 12pt;
+  padding: 5px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  text-align: left;
+}
+
+.TodoItem button {
+  margin-left: 10px;
+  cursor: pointer;
+}
